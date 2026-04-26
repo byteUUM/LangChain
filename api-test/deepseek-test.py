@@ -38,8 +38,6 @@ from langchain_openai import ChatOpenAI
 
 model = ChatOpenAI(
     model="deepseek-chat",
-    api_key="sk-3d4558aed3ea4143ba709345860d5a71",
-    base_url="https://api.deepseek.com/v1",
     temperature=2,
     # max_tokens=None,
     # timeout=None,
