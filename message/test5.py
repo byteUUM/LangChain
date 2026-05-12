@@ -2,6 +2,7 @@ from langchain_openai import ChatOpenAI
 from langsmith import Client
 
 client = Client()
+
 # prompt 就是一个提示词模板 ， Runnable 实例
 prompt = client.pull_prompt("hardkothari/prompt-maker", include_model=True)
 
