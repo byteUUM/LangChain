@@ -17,7 +17,6 @@
 # result = chain.invoke(messages)
 # print(result)
 
-
 # from langchain_openai import ChatOpenAI
 # model1 = ChatOpenAI(model="deepseek-chat",temperature=0.0)
 # model2 = ChatOpenAI(model="deepseek-chat",temperature=1.0)
